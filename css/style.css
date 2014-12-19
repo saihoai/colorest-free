@@ -1,0 +1,125 @@
+@import url("font-awesome.min.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #4a4f70;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background: url("../img/bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  font: 14px Arial;
+}
+.wrapper {
+  background: none repeat scroll 0 0 #fff;
+  margin: auto;
+  width: 640px;
+}
+.wrapper .title {
+  background: none repeat scroll 0 0 #8e5cd4;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.wrapper .search {
+  background: none repeat scroll 0 0 #e0e1ea;
+  height: 30px;
+  line-height: 30px;
+  padding: 20px;
+}
+.wrapper .search .box {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #a3a5af;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.wrapper .search .box .icon-search {
+  bottom: 0;
+  color: #989dbb;
+  height: 16px;
+  left: 0;
+  margin: auto 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 16px;
+}
+.wrapper .search .box input {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  color: #b6bbd9;
+  display: block;
+  font-weight: bold;
+  height: 30px;
+  margin: auto;
+  width: 90%;
+}
+.wrapper .list {
+  padding: 20px;
+}
+.wrapper .list .item {
+  overflow: hidden;
+  padding: 0 0 10px;
+}
+.wrapper .list .item .img {
+  background: none repeat scroll 0 0 #363951;
+  float: left;
+  height: 140px;
+  line-height: 140px;
+  margin: 0 10px 0 0;
+  position: relative;
+  text-align: center;
+  width: 145px;
+}
+.wrapper .list .item .img .icon-picture {
+  bottom: 0;
+  font-size: 64px;
+  height: 66px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.wrapper .list .item .info {
+  border-bottom: 1px solid #c1c4d6;
+  min-height: 139px;
+  overflow: hidden;
+}
+.wrapper .list .item .info * {
+  line-height: 35px;
+}
+.wrapper .list .item .info h3 {
+  color: #6f75a0;
+}
+.wrapper .list .item .info h1 {
+  color: #4a4f70;
+}
+.wrapper .list .item .info p {
+  color: #989dbb;
+}
+.wrapper .actions {
+  background: none repeat scroll 0 0 #e0e1ea;
+  border-top: 1px solid #c1c4d6;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.wrapper .actions .item {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+.wrapper .actions .item i {
+  display: block;
+  font-size: 32px;
+}
+.wrapper .actions .item.active a {
+  color: #8e5cd4;
+}
+/*# sourceMappingURL=style.css.map */
